@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+$white: #fff;
+$green: rgb(119,201,119);
+$darken-green: rgb(107,181,107);
+
+nav {
+  background-color: $white;
+  height: 64px;
+  line-height: 64px;
+
+  a {
+    color: $green;
+
+    &.button-collapse {
+      i {
+        height: 64px;
+        line-height: 64px;
+      }
+    }
+  }
+
+  .brand-logo {
+    text-align: center;
+    height: 64px;
+    width: 64px;
+    left: 50%;
+    margin-right: -32px;
+
+    img.img-60x60 {
+      margin-top: 2px;
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  ul {
+    a {
+      color: $green;
+
+      &:hover {
+        color: $white;
+      }
+    }
+
+    li {
+      &:hover {
+        background-color: $green;
+      }
+    }
+  }
+}
