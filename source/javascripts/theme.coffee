@@ -1,5 +1,7 @@
 $(document).ready ->
+
   $("#hello").html("")
+
   $("#hello").typed({
       strings: ["Hello! ^1000 Dites \"bonjour\" au web."],
       contentType: 'text',
@@ -9,4 +11,8 @@ $(document).ready ->
       loop: false,
       loopCount: false,
     })
-  new WOW().init()
+
+  new WOW({offset: 100}).init()
+
+  $("#map-overlay").on 'click', ->
+    $(this).remove()
