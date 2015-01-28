@@ -394,14 +394,15 @@ footer {
     }
 
     .social-icon {
-      width: 32px;
-      height: 32px;
+      width: 48px;
+      height: 48px;
       display: flex;
       display: -webkit-flex;
       align-items: center;
       -webkit-align-items: center;
       justify-content: center;
       -webkit-justify-content: center;
+      font-size: 1.5em;
 
       background-color: $white;
       border-radius: 50%;
@@ -415,6 +416,10 @@ footer {
 
       &.twitter:hover {
         background-color: rgb(89,173,235);
+        color: $white;
+      }
+      &.google:hover {
+        background-color: rgb(219, 76, 67);
         color: $white;
       }
     }
