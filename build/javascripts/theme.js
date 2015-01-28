@@ -1,0 +1,1 @@
+(function(){$(document).ready(function(){return $("#hello").html(""),$("#hello").typed({strings:['Hello! ^1000 Dites "bonjour" au web.'],contentType:"text",showCursor:!1,typeSpeed:10,startDelay:1e3,loop:!1,loopCount:!1}),new WOW({offset:100}).init(),$("#map-overlay").on("click",function(){return $(this).remove()})})}).call(this);
