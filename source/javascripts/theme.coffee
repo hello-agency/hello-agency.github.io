@@ -14,5 +14,17 @@ $(document).ready ->
 
   new WOW({offset: 100}).init()
 
+  BorderWidths()
+
   $("#map-overlay").on 'click', ->
     $(this).remove()
+
+  $(window).resize ->
+    BorderWidths()
+
+
+
+BorderWidths = ->
+  width = $(window).width()
+  $('.top-border.border-left').css('border-right-width', "#{width}px")
+  $('.top-border.border-right').css('border-left-width', "#{width}px")
