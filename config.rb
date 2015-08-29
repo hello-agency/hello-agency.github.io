@@ -55,6 +55,8 @@ set :images_dir, 'images'
 
 sprockets.append_path 'font'
 
+activate :meta_tags
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
