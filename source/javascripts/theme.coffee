@@ -28,3 +28,4 @@ BorderWidths = ->
   width = $(window).width()
   $('.top-border.border-left').css('border-right-width', "#{width}px")
   $('.top-border.border-right').css('border-left-width', "#{width}px")
+  打
